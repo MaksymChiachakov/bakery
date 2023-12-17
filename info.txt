@@ -1,0 +1,5 @@
+https://caninclude.glitch.me/
+https://swiperjs.com/get-started
+https://svgomg.net/
+https://icomoon.io/
+https://github.com/genius-space/genius-lesson-project/blob/main/scss/layouts/_section.scss

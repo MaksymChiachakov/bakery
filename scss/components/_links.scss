@@ -1,0 +1,14 @@
+.link {
+    color: var(--color-primary-light);
+    line-height: 1.5;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    /* Додайте анімацію transform */
+
+    &:hover {
+        color: var(--color-brand);
+        font-weight: 600;
+        transform: scale(1.1);
+        /* Збільште розмір тексту на 10% (можете налаштувати за своїм вибором) */
+    }
+}

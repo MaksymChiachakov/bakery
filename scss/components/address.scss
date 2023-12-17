@@ -1,0 +1,30 @@
+.address {
+    &__link {
+        color: var(--color-primary-light);
+        font-size: 16px;
+        font-weight: 300;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+
+    &__link:hover {
+        color: var(--color-brand);
+    }
+
+    &__icon {
+        fill: var(--color-primary-light);
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+
+    &__copyright {
+        margin-top: 16px;
+        font-size: 14px;
+        color: var(--color-secondary-dark);
+    }
+
+    &__list,
+    &__info {
+        flex-grow: 1;
+    }
+}

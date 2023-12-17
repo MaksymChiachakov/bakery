@@ -1,0 +1,61 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primary-light);
+    transform: translateX(100%);
+    transition: transform 0.3s;
+
+    &.is-open {
+        transform: translateX(0);
+    }
+
+
+
+    &__btn-close {
+
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        fill: var(--color-primary-dark);
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+
+
+
+    &__ul {
+        padding: 88px 24px;
+    }
+
+
+
+    &__link {
+        color: var(--color-primary-dark);
+        line-height: 1.5;
+        text-decoration: none;
+        margin-top: 32px;
+        font-size: 30px;
+        font-weight: bold;
+
+        &:hover {
+            color: var(--color-brand);
+            font-weight: 600;
+        }
+
+    }
+
+    &__img {
+        background-image: url('../images/decor-bread-small.png');
+        width: 100px;
+        height: 100px;
+        left: 30%;
+        margin-top: 0%;
+    }
+
+
+}
