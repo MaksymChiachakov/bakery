@@ -124,7 +124,7 @@ ul {
 @media screen and (min-width: 1280px) {
   .header__menu {
     display: flex;
-    gap: 64px;
+    gap: 10%;
     flex-grow: 1;
     justify-content: center;
   }
@@ -201,8 +201,6 @@ ul {
 }
 .link:hover {
   color: var(--color-brand);
-  font-weight: 600;
-  transform: scale(1.1);
   /* Збільште розмір тексту на 10% (можете налаштувати за своїм вибором) */
 }
 
@@ -418,6 +416,12 @@ ul {
 .footer__logos {
   display: flex;
 }
+@media screen and (max-width: 1280px) {
+  .footer__logos {
+    align-items: center;
+    justify-content: center;
+  }
+}
 .footer__logo, .footer__menu {
   flex-grow: 1;
   width: 100%;
@@ -454,6 +458,11 @@ ul {
 .contact-section {
   padding-bottom: 96px;
 }
+@media screen and (max-width: 768px) {
+  .contact-section {
+    padding-bottom: 0px;
+  }
+}
 .contact-section__title {
   margin-bottom: 16px;
 }
@@ -485,6 +494,7 @@ ul {
 @media screen and (min-width: 768px) {
   .contact-section__map {
     margin: auto;
+    padding-bottom: 0%;
     width: 320px;
     height: 500px;
   }
@@ -619,6 +629,8 @@ ul {
   display: flex;
   gap: 16px;
   align-items: flex-start;
+  margin-bottom: 16px;
+  margin-left: 12px;
 }
 @media screen and (min-width: 1280px) {
   .chef-card {

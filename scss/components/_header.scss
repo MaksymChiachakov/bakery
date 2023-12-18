@@ -26,8 +26,9 @@
         display: none;
 
         @media screen and (min-width: $bp-desktop) {
+
             display: flex;
-            gap: 64px;
+            gap: 10%;
             flex-grow: 1;
             justify-content: center;
         }

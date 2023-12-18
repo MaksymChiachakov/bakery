@@ -1,6 +1,10 @@
 .contact-section {
     padding-bottom: 96px;
 
+    @media screen and (max-width: $bp-tablet) {
+        padding-bottom: 0px;
+    }
+
     &__title {
         margin-bottom: 16px;
     }
@@ -34,6 +38,7 @@
 
         @media screen and (min-width: $bp-tablet) {
             margin: auto;
+            padding-bottom: 0%;
             width: 320px;
             height: 500px;
         }

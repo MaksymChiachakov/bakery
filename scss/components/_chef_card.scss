@@ -2,6 +2,8 @@
     display: flex;
     gap: 16px;
     align-items: flex-start;
+    margin-bottom: 16px;
+    margin-left: 12px;
 
     @media screen and (min-width: $bp-desktop) {
         gap: 30px;

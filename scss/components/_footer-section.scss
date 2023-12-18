@@ -35,6 +35,12 @@
 
     &__logos {
         display: flex;
+
+
+        @media screen and (max-width: $bp-desktop) {
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__logo,
